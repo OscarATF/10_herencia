@@ -83,7 +83,7 @@ int main() {
 	Persona p("Juan Perez","40302010",25);
 	p.mostrarDatos(); cout<<endl;
 	Docente d("Pablo Iglesias","10203040",54,3000,"Auditoria informatica");
-	d.mostrarDatos(); cout<<endl;
+	d.mostrarDocente(); cout<<endl;
 	int nota[]={20,19,18};
 	cout<<"Ingrese nombre de estudiante: "; fflush(stdin); getline(cin,nombre);
 	Estudiante e(nombre,"90706050",19,nota,3,"2021-123");
